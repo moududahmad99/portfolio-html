@@ -32,7 +32,7 @@ p {
 :root {
   --primary-color: #000000;
   --secondary-color: #353535;
-  --tertiary-color: #ffffff;
+  --tertiary-color: #f9f9f9;
   --primary-font: "Jura", sans-serif;
   --regular-font-weight: 400;
   --medium-font-weight: 500;
@@ -42,8 +42,160 @@ p {
 
 /* Common CSS End */
 
-/* Navbar Area Start */
-/* Navbar Area End */
+/* Home Area Start */
+#home {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), */
+    /* url(../images/pexels-dominika-roseclay-1036808.jpg) no-repeat center/cover; */
+  background: linear-gradient(
+    rgba(190, 206, 218, 0.4),
+    rgba(136, 137, 141, 0.507)
+  );
+}
+
+.home-description {
+  margin: 190px 0;
+  padding: 70px 90px;
+  background: #f9f9f9;
+  transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+}
+
+.home-description h4 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  align-items: center;
+  color: var(--primary-color);
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+}
+
+.home-description h3 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 65px;
+  color: var(--primary-color);
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  margin-left: 7px;
+}
+
+.home-description p {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px 0 30px 0;
+  color: var(--secondary-color);
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  margin-left: 22px;
+}
+
+.home-description a {
+  padding: 20px 40px;
+  background-color: #d7d7d7;
+  font-size: 21px;
+  color: var(--primary-color);
+  margin: 20px 0;
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  margin-left: 38px;
+  font-family: var(--primary-font);
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  border: thin solid #d7d7d7;
+}
+
+.home-description a:hover {
+  background: transparent;
+  border: thin solid #d7d7d7;
+  border-radius: 20px 0;
+}
+
+.home-navNprofile {
+  background: #ffffff;
+  height: 101%;
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  text-align: center;
+  position: relative;
+}
+
+.home-navNprofile img {
+  height: 300px;
+  width: 300px;
+  margin: 50px 0 0 64px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 99;
+  margin-bottom: 80px;
+}
+
+.home-navNprofile::after {
+  position: absolute;
+  content: "";
+  height: 340px;
+  width: 340px;
+  background-color: #d7d7d7;
+  top: 29px;
+  left: 70px;
+  z-index: -1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.home-navNprofile ul li {
+  margin-left: 90px;
+}
+
+.home-navNprofile ul li a{
+  height: 70px;
+  width: 200px;
+  color: var(--secondary-color);
+  font-size: 22px;
+  font-family: var(--primary-font);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  border: thin solid #d7d7d7;
+  padding-top: 17px;
+  text-transform: uppercase;
+}
+.home-navNprofile ul li a:hover {
+  border-radius: 20px 0;
+  transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+}
+/* Home Area End */
 
 /* About Area Start */
 /* About Area End */
