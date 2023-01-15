@@ -197,76 +197,117 @@
 
 /* Small Area Start */
 @media (min-width: 575px) and (max-width: 767.98px) {
+
+  /* toggle trying */
+
+  .home-navNprofile {
+    height: 100%;
+  }
+
+  .home-navNprofile {
+    position: absolute;
+    top: 0;
+    left: -25rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+  }
+
+  .toggle-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    line-height: 47px;
+    background-color: #d7d7d7;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+  .toggle-menu i {
+    color: #919191b6;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .toggle {
+    left: 0;
+  }
+  /* toggle trying end*/
+
+
   .home-description {
     margin: 100px 0 80px 0;
     padding: 20px 20px;
-    transform: rotate(9deg);
-    -webkit-transform: rotate(9deg);
-    -moz-transform: rotate(9deg);
-    -ms-transform: rotate(9deg);
-    -o-transform: rotate(9deg);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description h4 {
     font-size: 18px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description h3 {
     font-size: 25px;
-    margin-left: 7.4px;
+    /* margin-left: 7.4px; */
+    margin-left: 0;
     line-height: 38px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description p {
     font-size: 13px;
     line-height: 22px;
     margin-bottom: 15px;
-    margin-left: 22px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-  }
+    /* margin-left: 22px; */
+    margin-left: 0px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description a {
     padding: 16px 36px;
     font-size: 17px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-    margin-left: 43px;
-  }
-
-  .home-navNprofile {
-    clip-path: polygon(34% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    /* margin-left: 43px; */
+    margin-left: 0;
+}
 
   .home-navNprofile img {
-    height: 125px;
-    width: 125px;
-    margin: 50px 0 0 64px;
+    height: 135px;
+    width: 135px;
+    margin: 50px 0 0 8px;
     clip-path: circle(50% at 50% 50%);
     margin-bottom: 60px;
   }
 
   .home-navNprofile::after {
-    height: 145px;
-    width: 145px;
-    top: 40px;
-    left: 66px;
+    height: 150px;
+    width: 150px;
+    top: 42px;
+    left: 25px;
   }
 
   .home-navNprofile ul li a {
@@ -274,86 +315,143 @@
     height: 45px;
     width: 120px;
     padding-top: 12px;
+    margin-left: -20px !important;
   }
 
   .home-navNprofile ul li {
-    margin-left: 30px !important;
+    margin-left: 0px !important;
+    margin: 0 20px !important;
+    padding: 0 10px;
   }
 }
 /* Small Area End */
 
 /* Extra Small Area Start */
 @media (max-width: 575px) {
+    /* toggle trying */
+
+    .home-navNprofile {
+      height: 100%;
+    }
+  
+    .home-navNprofile {
+      position: absolute;
+      top: 0;
+      left: -40rem;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+      transition: .6s;
+      -webkit-transition: .6s;
+      -moz-transition: .6s;
+      -ms-transition: .6s;
+      -o-transition: .6s;
+      /* ---- width ---- */
+      width: 100%;
+    }
+  
+    .toggle-menu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      line-height: 47px;
+      background-color: #d7d7d7;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+  }
+  
+    .toggle-menu i {
+      color: #919191b6;
+      font-size: 26px;
+      cursor: pointer;
+    }
+  
+    .toggle {
+      left: 0;
+    }
+    /* toggle trying end*/
+
+    
   .home-description {
     margin: 100px 0 80px 0;
     padding: 20px 20px;
-    transform: rotate(9deg);
-    -webkit-transform: rotate(9deg);
-    -moz-transform: rotate(9deg);
-    -ms-transform: rotate(9deg);
-    -o-transform: rotate(9deg);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description h4 {
     font-size: 18px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description h3 {
-    font-size: 25px;
-    margin-left: 7.4px;
+    font-size: 24px;
+    /* margin-left: 7.4px; */
+    margin-left: 0;
     line-height: 38px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-  }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description p {
     font-size: 13px;
     line-height: 22px;
     margin-bottom: 15px;
-    margin-left: 22px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-  }
+    /* margin-left: 22px; */
+    margin-left: 0px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
 
   .home-description a {
     padding: 16px 36px;
-    font-size: 17px;
-    transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-    margin-left: 43px;
-  }
-
-  .home-navNprofile {
-    clip-path: polygon(34% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
+    font-size: 14px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    /* margin-left: 43px; */
+    margin-left: 0;
+}
 
   .home-navNprofile img {
-    height: 125px;
-    width: 125px;
-    margin: 50px 0 0 64px;
+    height: 135px;
+    width: 135px;
+    margin: 50px 0 0 8px;
     clip-path: circle(50% at 50% 50%);
     margin-bottom: 60px;
+    position: relative;
+    z-index: -1;
+  }
+
+  .home-navNprofile img::after {
+    height: 150px;
+    width: 150px;
+    background: #000;
+    left: 0;
+    top: 0;
+    z-index: 1;
   }
 
   .home-navNprofile::after {
-    height: 145px;
-    width: 145px;
-    top: 40px;
-    left: 66px;
+    height: 150px;
+    width: 150px;
+    top: 42px;
+    left: 25px;
+    display: none;
   }
 
   .home-navNprofile ul li a {
@@ -361,10 +459,16 @@
     height: 45px;
     width: 120px;
     padding-top: 12px;
+    margin-left: -20px !important;
   }
 
   .home-navNprofile ul li {
-    margin-left: 30px !important;
+    margin-left: 0px !important;
+    margin: 0 20px !important;
+    padding: 0 10px;
   }
 }
 /* Extra Small Area End */
+
+
+/* hiding toggle */
