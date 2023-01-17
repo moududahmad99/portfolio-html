@@ -254,6 +254,21 @@ p {
   font-family: var(--primary-font);
   text-transform: uppercase;
   margin-bottom: 50px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  cursor: pointer;
+}
+
+#about .box:hover {
+  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  box-shadow: rgba(25, 60, 77, 0.4) 0px 25px 20px -20px;
 }
 
 #about .box h4 {
@@ -263,7 +278,6 @@ p {
 #about .box h3 {
   font-size: 26px;
 }
-
 
 /* About Area End */
 

@@ -356,6 +356,15 @@
     margin-left: 0;
   }
 
+  .home-description a:hover {
+    border-radius: 15px 0;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+  }
+
   .home-navNprofile img {
     height: 135px;
     width: 135px;
@@ -516,6 +525,15 @@
     margin-left: 0;
   }
 
+  .home-description a:hover {
+    border-radius: 15px 0;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+  }
+
   .home-navNprofile img {
     height: 135px;
     width: 135px;
@@ -558,7 +576,7 @@
   /* Home Area End */
 
   /* About Area Start */
-  
+
   #about {
     margin: 60px 0 20px 0;
   }
