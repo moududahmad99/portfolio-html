@@ -1,5 +1,6 @@
 /* X-Large Area Start */
 @media (min-width: 1200px) and (max-width: 1398.98px) {
+  /* Home Area Start */
   .home-description {
     margin: 140px 0 120px 0;
     padding: 60px 90px;
@@ -50,6 +51,8 @@
 
 /* Large Area Start */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* Home Area Start */
   .home-description {
     margin: 140px 0 120px 0;
     padding: 60px 90px;
@@ -110,6 +113,8 @@
 
 /* Medium Area Start */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* Home Area Start */
   .home-description {
     margin: 100px 0 80px 0;
     padding: 20px 20px;
@@ -170,7 +175,7 @@
   .home-navNprofile img {
     height: 125px;
     width: 125px;
-    margin: 50px 0 0 64px;
+    margin: 50px 0 0 58px;
     clip-path: circle(50% at 50% 50%);
     margin-bottom: 60px;
   }
@@ -178,8 +183,8 @@
   .home-navNprofile::after {
     height: 145px;
     width: 145px;
-    top: 40px;
-    left: 66px;
+    top: 39px;
+    left: 64px;
   }
 
   .home-navNprofile ul li a {
@@ -198,8 +203,9 @@
 /* Small Area Start */
 @media (min-width: 575px) and (max-width: 767.98px) {
 
-  /* toggle trying */
+  /* Home Area Start */
 
+  /* toggle start */
   .home-navNprofile {
     height: 100%;
   }
@@ -214,6 +220,7 @@
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
+    padding: 0 50px;
   }
 
   .toggle-menu {
@@ -236,7 +243,7 @@
   .toggle {
     left: 0;
   }
-  /* toggle trying end*/
+  /* toggle end*/
 
 
   .home-description {
@@ -298,16 +305,17 @@
   .home-navNprofile img {
     height: 135px;
     width: 135px;
-    margin: 50px 0 0 8px;
+    margin: 50px 0 0 0px;
     clip-path: circle(50% at 50% 50%);
     margin-bottom: 60px;
+    position: relative;
   }
 
   .home-navNprofile::after {
-    height: 150px;
-    width: 150px;
-    top: 42px;
-    left: 25px;
+    height: 153px;
+    width: 153px;
+    top: 41px;
+    left: 69px;
   }
 
   .home-navNprofile ul li a {
@@ -327,9 +335,11 @@
 /* Small Area End */
 
 /* Extra Small Area Start */
-@media (max-width: 575px) {
-    /* toggle trying */
-
+@media (max-width: 575px) { 
+  
+  /* Home Area Start */
+  
+  /* toggle start */
     .home-navNprofile {
       height: 100%;
     }
@@ -368,7 +378,7 @@
     .toggle {
       left: 0;
     }
-    /* toggle trying end*/
+    /* toggle end*/
 
     
   .home-description {
@@ -434,7 +444,6 @@
     clip-path: circle(50% at 50% 50%);
     margin-bottom: 60px;
     position: relative;
-    z-index: -1;
   }
 
   .home-navNprofile img::after {
@@ -467,8 +476,8 @@
     margin: 0 20px !important;
     padding: 0 10px;
   }
+  /* Home Area End */
+
+  
 }
 /* Extra Small Area End */
-
-
-/* hiding toggle */

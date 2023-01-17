@@ -90,7 +90,6 @@ p {
   -ms-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   margin-left: 6px;
-
 }
 
 .home-description p {
@@ -115,17 +114,17 @@ p {
   font-size: 21px;
   color: var(--primary-color);
   margin: 20px 0;
-  transform: rotate(-7deg);
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  -ms-transform: rotate(-7deg);
-  -o-transform: rotate(-7deg);
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
   font-family: var(--primary-font);
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
   border: thin solid #d7d7d7;
   margin-left: 32px;
 }
@@ -173,17 +172,17 @@ p {
   margin-left: 90px;
 }
 
-.home-navNprofile ul li a{
+.home-navNprofile ul li a {
   height: 70px;
   width: 200px;
   color: var(--secondary-color);
   font-size: 22px;
   font-family: var(--primary-font);
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   border: thin solid #d7d7d7;
   padding-top: 17px;
   text-transform: uppercase;
@@ -214,6 +213,58 @@ p {
 /* Home Area End */
 
 /* About Area Start */
+#about {
+  margin: 80px 0;
+}
+
+.about-title h3 {
+  font-family: "Jura";
+  font-size: 35px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about-title h3 span {
+  font-weight: 700;
+}
+
+.about-inner-left {
+  margin: 60px 0;
+}
+
+.about-inner-left p {
+  font-size: 22px;
+  color: var(--primary-color);
+  line-height: 36px;
+  font-family: var(--primary-font);
+  margin: 10px 0;
+}
+
+.about-inner-right {
+  margin: 40px 0;
+}
+
+#about .box {
+  background: #d9d9d9;
+  margin-left: 30px;
+  padding: 50px 20px;
+  line-height: 20px;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#about .box h4 {
+  font-size: 32px;
+}
+
+#about .box h3 {
+  font-size: 26px;
+}
+
+
 /* About Area End */
 
 /* Project Area Start */
