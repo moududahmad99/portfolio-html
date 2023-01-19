@@ -1,9 +1,14 @@
-$(function(){
-    $('#bar-icon').click(function(){
+$(function () {
+    $('#bar-icon').click(function () {
         $(this).toggleClass('fa-times');
         $('.home-navNprofile').toggleClass('toggle');
     });
 });
+
+$(document).ready(function(){
+    var mixer = mixitup('.grid')
+})
+
 let changeIcon = function (icon) {
     icon.classList.toggle('fa-xmark')
 }
@@ -14,3 +19,4 @@ let toggleBtn = document.querySelector('.toggle-menu')
 toggleBtn.addEventListener('click', () => {
     home.classList.toggle('toggle')
 });
+
