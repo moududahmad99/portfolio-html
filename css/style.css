@@ -312,14 +312,6 @@ p {
 .project-nav ul li {
   background: #d9d9d9;
   cursor: pointer;
-}
-
-
-.project-nav ul li:hover {
-  background: #d9d9d9bb;
-}
-
-.project-nav ul li {
   padding: 20px 44.3px;
   font-size: 20px;
   font-family: var(--primary-font);
@@ -328,10 +320,13 @@ p {
   font-weight: var(--semibold-font-weight);
 }
 
+.project-nav ul li:hover {
+  background: #d9d9d9bb;
+}
+
 .project-items {
   margin-top: 40px;
   position: relative;
-  /* cursor: pointer; */
 }
 
 .project-items:hover .project-itemsInner {
@@ -394,22 +389,6 @@ p {
   background: #7a7a7a65;
   color: #000000; 
 }
-/* 
-.colorful-tab-wrapper {
-  width: 100%;
-  background: none;
-  color: #000000 !important;
-}
-
-.colorful-tab-menu-item {
-  flex: 1 1 auto;
-  align-self: unset;
-} */
-
-/* .mix{
-  display: none;
-} */
-
 
 /* Project Area End */
 
