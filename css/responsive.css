@@ -86,6 +86,20 @@
     padding: 8px 15px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  .contact-inner-left h3 {
+    padding: 69px 0 40px 38px;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 40px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 100px;
+  }
+  /* Contact Area End */
 }
 /* X-Large Area End */
 
@@ -192,6 +206,36 @@
     font-size: 13px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  .contact-inner-left h3 {
+    padding: 69px 0 40px 28px;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 30px;
+  }
+
+  .contact-inner-left .contact-inner i {
+    font-size: 17px;
+  }
+
+  .contact-inner-left .contact-inner a {
+    font-size: 17px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 60px;
+  }
+
+  .contact-inner-right h3 {
+    font-size: 19px;
+  }
+
+  .contact-inner-right a {
+    font-size: 19px;
+  }
+  /* Contact Area End */
 }
 /* Large Area End */
 
@@ -324,6 +368,47 @@
     padding: 12px 20px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  #contact {
+    margin: 80px 0 70px 0;
+  }
+
+  .contact-inner-left {
+    padding: 40px 0;
+    height: 700px;
+    margin: 70px 0 0 0;
+  }
+
+  .contact-inner-left h3 {
+    padding: 39px 0 40px 8px;
+    text-align: center;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 160px;
+  }
+
+  .contact-inner-left .contact-inner i {
+    font-size: 17px;
+  }
+
+  .contact-inner-left .contact-inner a {
+    font-size: 17px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 140px;
+  }
+
+  .contact-inner-right h3 {
+    font-size: 21px;
+  }
+
+  .contact-inner-right a {
+    font-size: 21px;
+  }
+  /* Contact Area End */
 }
 /* Medium Area End */
 
@@ -515,6 +600,51 @@
     font-size: 14px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  #contact {
+    margin: 80px 0 70px 0;
+  }
+
+  .contact-title h3 {
+    font-size: 27px;
+  }
+
+  .contact-inner-left {
+    padding: 40px 0;
+    height: 700px;
+    margin: 40px 0 0 0;
+  }
+
+  .contact-inner-left h3 {
+    padding: 39px 0 40px 0px;
+    text-align: center;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 70px;
+  }
+
+  .contact-inner-left .contact-inner i {
+    font-size: 17px;
+  }
+
+  .contact-inner-left .contact-inner a {
+    font-size: 17px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 40px;
+  }
+
+  .contact-inner-right h3 {
+    font-size: 21px;
+  }
+
+  .contact-inner-right a {
+    font-size: 21px;
+  }
+  /* Contact Area End */
 }
 /* Small Area End */
 
@@ -730,6 +860,62 @@
     font-size: 13px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  #contact {
+    margin: 80px 0 70px 0;
+  }
+
+  .contact-title h3 {
+    font-size: 23px;
+  }
+
+  .contact-inner-left {
+    padding: 40px 0;
+    height: 700px;
+    margin: 40px 20px 0 20px;
+  }
+
+  .contact-inner-left h3 {
+    padding: 39px 0 40px 0px;
+    text-align: center;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 30px;
+  }
+
+  .contact-inner-left .contact-inner i {
+    font-size: 17px;
+  }
+
+  .contact-inner-left .contact-inner a {
+    font-size: 17px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 50px;
+    margin: 0 20px;
+    margin-top: 15px;
+    height: 700px;
+  }
+
+  .contact-inner-right h3 {
+    font-size: 20px;
+  }
+
+  .contact-inner-right a {
+    font-size: 20px;
+  }
+
+  .field {
+    width: 320px;
+  }
+
+  .field-message {
+    width: 320px;
+  }
+  /* Contact Area End */
 }
 
 /* 450 Start (projects area) */
@@ -756,6 +942,62 @@
     font-size: 11px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  #contact {
+    margin: 80px 0 70px 0;
+  }
+
+  .contact-inner-left {
+    padding: 40px 0;
+    height: 570px;
+    margin: 40px 20px 0 20px;
+  }
+
+  .contact-inner-left h3 {
+    padding: 19px 0 20px 0px;
+    text-align: center;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 30px;
+  }
+
+  .contact-inner-left .contact-inner i {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .contact-inner-left .contact-inner a {
+    font-size: 14px;
+    padding: 5px 20px 0 10px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 50px;
+    margin: 0 20px;
+    margin-top: 15px;
+  }
+
+  .contact-inner-right h3 {
+    font-size: 16px;
+  }
+
+  .contact-inner-right a {
+    font-size: 16px;
+  }
+
+  .field {
+    width: 260px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .field-message {
+    width: 260px;
+    font-size: 16px;
+  }
+  /* Contact Area End */
 }
 /* 450 End */
 
@@ -808,6 +1050,71 @@
     font-size: 10px;
   }
   /* Project Area End */
+
+  /* Contact Area Start */
+  #contact {
+    margin: 80px 0 70px 0;
+  }
+
+  .contact-inner-left {
+    padding: 40px 0;
+    height: 500px;
+    margin: 40px 20px 0 20px;
+  }
+
+  .contact-inner-left h3 {
+    padding: 19px 0 20px 0px;
+    text-align: center;
+  }
+
+  .contact-inner-left .contact-inner {
+    margin: 0 30px;
+    padding: 10px 7px ;
+  }
+
+  .contact-inner-left .contact-inner i {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  .contact-inner-left .contact-inner a {
+    font-size: 12px;
+    padding: 7px 2px 0 10px;
+  }
+
+  .contact-inner-right {
+    padding: 80px 60px 80px 25px;
+    margin: 0 20px;
+    margin-top: 15px;
+  }
+
+  .contact-inner-right a {
+    font-size: 18px;
+    background: #ffffff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: var(--regular-font-weight);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .contact-inner-right a:hover {
+    border-radius: 15px 0;
+  }
+
+  .field {
+    width: 230px;
+  }
+
+  .field-message {
+    width: 230px;
+  }
+  /* Contact Area End */
 }
 /* 320 End*/
 

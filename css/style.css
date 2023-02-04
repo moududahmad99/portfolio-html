@@ -399,20 +399,20 @@ p {
 }
 
 .contact-title h3 {
-  font-family: "Jura";
   font-size: 35px;
+  font-family: "Jura";
   line-height: 53px;
   text-transform: uppercase;
   color: #000000;
 }
 
+.contact-title h3 span {
+  font-weight: 700;
+}
+
 #contact .row > * {
   padding-right: calc(var(--bs-gutter-x) * 0);
   padding-left: calc(var(--bs-gutter-x) * 0);
-}
-
-.contact-title h3 span {
-  font-weight: 700;
 }
 
 .contact-inner-left {
@@ -428,29 +428,25 @@ p {
   padding: 69px 0 40px 69px;
 }
 
-.contact-inner-left .contact-inner {
+.contact-inner {
   background: #d9d9d9;
   margin: 0 70px;
   padding: 20px;
 }
 
-.contact-inner-left .contact-inner i {
+.contact-inner i {
   background: #ffffff;
   padding: 14px 18px;
   color: var(--primary-color);
   font-size: 20px;
 }
 
-.contact-inner-left .contact-inner a {
+.contact-inner a {
   font-size: 20px;
   color: var(--primary-color);
   padding: 10px 20px 0 0;
   font-family: var(--primary-font);
   padding-left: 15px;
-}
-
-.contact-inner-left .contact-inner a:hover {
-  color: rgb(54, 56, 56);
 }
 
 .contact-inner-right {
@@ -463,6 +459,8 @@ p {
 .contact-inner-right h3 {
   font-family: var(--primary-font);
   font-size: 22px;
+  color: #000000;
+  font-weight: var(--regular-font-weight);
 }
 
 .field {
@@ -475,8 +473,8 @@ p {
   border: none;
   font-family: var(--secondary-font);
   font-weight: 300;
-  color: #000000;
   font-size: 18px;
+  color: #000000c2;
 }
 
 .field-message {
@@ -489,6 +487,7 @@ p {
   outline: none;
   border: none;
   font-size: 18px;
+  color: #000000c2;
 }
 
 .contact-inner-right a {
