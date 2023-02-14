@@ -524,8 +524,8 @@ p {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  background-color: #e23e38;
-  color: #ffffff;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
   transition: .5s;
   -webkit-transition: .5s;
   -moz-transition: .5s;
@@ -535,9 +535,9 @@ p {
 }
 
 .backToTop:hover {
-  color: #e23e38;
+  color: var(--primary-color);
   background-color: transparent;
-  border: 1px solid #e23e38;
+  border: 1px solid #353535;
 }
 
 /* Contact Area End */
