@@ -5,7 +5,7 @@ $(function () {
     });
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     var mixer = mixitup('.grid')
 })
 
@@ -20,3 +20,15 @@ toggleBtn.addEventListener('click', () => {
     home.classList.toggle('toggle')
 });
 
+// counter up
+$(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 500,
+        offset: 70,
+        beginAt: 5,
+        formatter: function (n) {
+            return n.replace(/,/g, '.');
+        }
+    });
+})
